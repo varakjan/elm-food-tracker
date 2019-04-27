@@ -1,0 +1,106 @@
+body {
+  color : #5fffff;
+  background-color: #232b2b;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 8vh;
+  color: #ffff00;
+}
+
+h3 {
+  font-size: 2.7vh;
+}
+
+p {
+  font-size: 2.2vh;
+  margin: 0.5vw;
+}
+
+input {
+  margin: 0.5vw;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #ffff00;
+  font-size: 2vh;
+  width: 20vw;
+  min-width: 20vh;
+}
+
+button {
+  border-radius: 4px;
+  color: #ffff00;
+  background-color: black;
+  padding: 0.5vh 1vw 0.5vh 1vw;
+  font-size: 2.5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-right: 0.5vw;
+  width: 6%;
+  min-width: 10vh;
+}
+
+button:hover {
+  color: black;
+  background-color: #ffff00;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  color: #ffff00;
+  text-align: center;
+  font-size: 2vw;
+  width: 90vw;
+  min-width: 20vh;
+}
+
+li p {
+  display: inline-block;
+}
+
+
+.error {
+  color: red;
+}
+
+
+/* Start Media Queries */
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px)  and (max-width : 1070px) {
+  ul {
+    font-size: 3vw;
+  }
+}
+/* Small Tablets (portrait and landscape) ----------- */
+@media only screen and (min-width : 569px) and (max-width : 767px) {
+	ul {
+    font-size: 3.5vw;
+  }
+	
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 240px) and (max-width : 568px) {
+  ul {
+    font-size: 5vw;
+    width: 20vw;
+
+  }
+
+  li {
+    margin-bottom: 2vh;
+  }
+
+  li p {
+    text-align:  left;
+    display: block;
+  }
+
+  h1 {
+    font-size: 6vh;
+  }
+}
